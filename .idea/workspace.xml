@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c519295d-9a65-476d-9fc3-33d24ac1f182" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2Tasks/TaskNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day3Tasks/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TaskNew">
+  <component name="RunManager" selected="Application.Task1">
     <configuration name="Facebook1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2Tasks.Facebook1" />
       <module name="selenium_EU10" />
@@ -83,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_Navigation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2Tasks.T3_Navigation" />
+    <configuration name="T4_Cydeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2Tasks.T4_Cydeo" />
       <module name="selenium_EU10" />
       <extension name="coverage">
         <pattern>
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_Cydeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2Tasks.T4_Cydeo" />
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day3Tasks.Task1" />
       <module name="selenium_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day2Tasks.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day3Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.TaskNew" />
         <item itemvalue="Application.Facebook2" />
         <item itemvalue="Application.Facebook1" />
         <item itemvalue="Application.T4_Cydeo" />
-        <item itemvalue="Application.T3_Navigation" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +142,8 @@
       <updated>1671429141486</updated>
       <workItem from="1671429142711" duration="23286000" />
       <workItem from="1671707075676" duration="1213000" />
-      <workItem from="1671785219642" duration="3915000" />
+      <workItem from="1671785219642" duration="6051000" />
+      <workItem from="1672154565722" duration="1509000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1671518148838</created>
@@ -179,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671785276271</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="done">
+      <created>1671826296757</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671826296757</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
