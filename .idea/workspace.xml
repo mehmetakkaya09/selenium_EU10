@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c519295d-9a65-476d-9fc3-33d24ac1f182" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day3Tasks/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day04/Xpath_css.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utility/ChromeStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/SeleniumTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2Tasks/Apple1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/Apple1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2Tasks/CydeoTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/CydeoTask1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2Tasks/Facebook1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/Facebook1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2Tasks/Facebook2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/Facebook2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2Tasks/GetText_GetAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/GetText_GetAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2Tasks/T1_Etsy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/T1_Etsy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2Tasks/T2_ZeroBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/T2_ZeroBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2Tasks/T3_Navigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/T3_Navigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2Tasks/T4_Cydeo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/T4_Cydeo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2Tasks/TaskNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/TaskNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day3Tasks/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day03Tasks/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,26 +69,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Task1">
-    <configuration name="Facebook1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2Tasks.Facebook1" />
-      <module name="selenium_EU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day2Tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Xpath_css">
     <configuration name="Facebook2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2Tasks.Facebook2" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day02Tasks.Facebook2" />
       <module name="selenium_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day2Tasks.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day02Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_Cydeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2Tasks.T4_Cydeo" />
+    <configuration name="SeleniumTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.SeleniumTests" />
       <module name="selenium_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day2Tasks.*" />
+          <option name="PATTERN" value="com.cydeo.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +97,11 @@
       </method>
     </configuration>
     <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day3Tasks.Task1" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day03Tasks.Task1" />
       <module name="selenium_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day3Tasks.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day03Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +110,24 @@
       </method>
     </configuration>
     <configuration name="TaskNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2Tasks.TaskNew" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day02Tasks.TaskNew" />
       <module name="selenium_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day2Tasks.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day02Tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Xpath_css" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day04.Xpath_css" />
+      <module name="selenium_EU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Xpath_css" />
+        <item itemvalue="Application.SeleniumTests" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="Application.TaskNew" />
         <item itemvalue="Application.Facebook2" />
-        <item itemvalue="Application.Facebook1" />
-        <item itemvalue="Application.T4_Cydeo" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +156,7 @@
       <workItem from="1671429142711" duration="23286000" />
       <workItem from="1671707075676" duration="1213000" />
       <workItem from="1671785219642" duration="6051000" />
-      <workItem from="1672154565722" duration="1509000" />
+      <workItem from="1672154565722" duration="4077000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1671518148838</created>
@@ -187,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671826296757</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="done">
+      <created>1672156221896</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672156221896</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +221,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2Tasks/Apple1.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/Apple1.java</url>
           <line>13</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>

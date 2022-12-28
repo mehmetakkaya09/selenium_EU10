@@ -1,4 +1,4 @@
-package com.cydeo.tests.day3Tasks;
+package com.cydeo.tests.day03Tasks;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
