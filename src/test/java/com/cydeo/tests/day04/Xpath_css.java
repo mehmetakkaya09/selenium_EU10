@@ -19,5 +19,10 @@ public class Xpath_css {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         Thread.sleep(3000);
         driver.close();
+
+
+
     }
+
+
 }
