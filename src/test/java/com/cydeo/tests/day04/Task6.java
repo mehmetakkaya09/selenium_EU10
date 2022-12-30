@@ -12,6 +12,9 @@ public class Task6 {
         driver.get("https://practice.cydeo.com/abtest");
         WebElement cydeo = driver.findElement(By.cssSelector("a[target='_blank']"));
         System.out.println("cydeo.isDisplayed() = " + cydeo.isDisplayed());
+        driver.navigate().refresh();
+        cydeo = driver.findElement(By.cssSelector("a[target='_blank']"));
+        System.out.println("cydeo.isDisplayed() = " + cydeo.isDisplayed());
         driver.quit();
     }
 }
