@@ -11,6 +11,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class Task04 {
@@ -80,12 +81,15 @@ public class Task04 {
 
     @Test
     public void allSelectTest() {
-
+        List<WebElement> select1 = driver.findElements(By.tagName("select"));
         for (WebElement element : driver.findElements(By.tagName("select"))) {
             Select select = new Select(element);
 
             try {
                 System.out.println(select.getFirstSelectedOption().getText());
+                select.deselectByIndex(0);
+                System.out.println(select.getFirstSelectedOption().getText());
+
             }catch (RuntimeException e){
                 System.out.println("Olur Öyle");
             }
