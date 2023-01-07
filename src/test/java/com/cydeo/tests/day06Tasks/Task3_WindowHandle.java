@@ -25,7 +25,7 @@ public class Task3_WindowHandle {
 
     @AfterMethod
     public void tearDown() {
-        //driver.quit();
+        driver.quit();
     }
 
     @Test
