@@ -64,23 +64,6 @@
   }
 }</component>
   <component name="RunManager" selected="TestNG.Task3_WindowHandle.windowHandleTest">
-    <configuration name="Task1_alert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium_EU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day06Tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day05Tasks" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06Tasks.Task1_alert" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task1_alert.alertPromptTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium_EU10" />
       <extension name="coverage">
@@ -134,6 +117,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task3_WindowHandle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_EU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day06Tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06Tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06Tasks.Task3_WindowHandle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task3_WindowHandle.windowHandleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium_EU10" />
       <extension name="coverage">
@@ -155,10 +155,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Task3_WindowHandle.windowHandleTest" />
+        <item itemvalue="TestNG.Task3_WindowHandle" />
         <item itemvalue="TestNG.Task2_iframe" />
         <item itemvalue="TestNG.Task2_iframe.iframeTest" />
         <item itemvalue="TestNG.Task1_alert.alertPromptTest" />
-        <item itemvalue="TestNG.Task1_alert" />
       </list>
     </recent_temporary>
   </component>

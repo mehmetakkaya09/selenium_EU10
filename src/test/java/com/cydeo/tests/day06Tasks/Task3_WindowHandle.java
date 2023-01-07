@@ -34,17 +34,15 @@ public class Task3_WindowHandle {
         String windowHandle1 = driver.getWindowHandle();
         clickHere.click();
         Set<String> windowHandles = driver.getWindowHandles();
-        String windowHandle2 = "";
         String window[] = new String[2];
         int indexNum = 0;
         for (String windowHandle : windowHandles) {
             window[indexNum++] = windowHandle;
-            if (windowHandle.equals(driver.getWindowHandle())){
-                continue;
-            }
-            windowHandle2 = windowHandle;
+//            if (windowHandle.equals(driver.getWindowHandle())){
+//                continue;
+//            }
         }
-        driver.switchTo().window(windowHandle2);
+        driver.switchTo().window(window[1]);
         String title = driver.getTitle();
         System.out.println(title);
         System.out.println(Arrays.toString(window));
