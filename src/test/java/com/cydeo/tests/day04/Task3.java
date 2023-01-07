@@ -17,5 +17,6 @@ public class Task3 {
         String expectedText = "Clicked on button one!";
         StringUtility.equalsTexts(actualText,expectedText);
        driver.close();
+
     }
 }

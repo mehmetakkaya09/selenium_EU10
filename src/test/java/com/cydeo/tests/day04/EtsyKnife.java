@@ -27,7 +27,6 @@ public class EtsyKnife {
                 continue;
             }
             driver.switchTo().window(windowHandle);
-
         }
 
         WebElement addToCart = driver.findElement(By.xpath("//div[@data-selector='add-to-cart-button']/button"));
