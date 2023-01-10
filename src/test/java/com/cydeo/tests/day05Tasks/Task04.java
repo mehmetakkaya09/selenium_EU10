@@ -16,6 +16,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Task04 {
     WebDriver driver;
+
     @BeforeMethod
     public void setUp() {
         driver = ChromeStart.chromeStart();
@@ -26,15 +27,15 @@ public class Task04 {
 
     @AfterMethod
     public void tearDown() {
-        driver.quit();
+        //driver.quit();
     }
 
     @Test(priority = 1)
     public void dropDownTest() throws InterruptedException {
         Select select = new Select(driver.findElement(By.id("dropdown")));
         String actualText = select.getFirstSelectedOption().getText();
-        String expectedText= "Please select an option";
-        Assert.assertEquals(actualText,expectedText);
+        String expectedText = "Please select an option";
+        Assert.assertEquals(actualText, expectedText);
         select.selectByIndex(1);
         WaitUtility.waitSeconds(2.5);
 
@@ -45,7 +46,7 @@ public class Task04 {
         Select select = new Select(driver.findElement(By.id("state")));
         String actualText = select.getFirstSelectedOption().getText();
         String expectedText = "Select a State";
-        Assert.assertEquals(actualText,expectedText);
+        Assert.assertEquals(actualText, expectedText);
         select.selectByVisibleText("Arkansas");
         WaitUtility.waitSeconds(2);
         select.selectByIndex(7);
@@ -75,26 +76,33 @@ public class Task04 {
         facebookBtn.click();
         String actualTitle = driver.getTitle();
         String expectedTitle = "Facebook – log in or sign up";
-        Assert.assertEquals(actualTitle,expectedTitle);
+        Assert.assertEquals(actualTitle, expectedTitle);
         WaitUtility.waitSeconds(2);
     }
 
     @Test
     public void allSelectTest() {
-        List<WebElement> select1 = driver.findElements(By.tagName("select"));
-        for (WebElement element : driver.findElements(By.tagName("select"))) {
-            Select select = new Select(element);
-
-            try {
-                System.out.println(select.getFirstSelectedOption().getText());
-                select.deselectByIndex(0);
-                System.out.println(select.getFirstSelectedOption().getText());
-
-            }catch (RuntimeException e){
-                System.out.println("Olur Öyle");
-            }
-
+        //List<WebElement> select1 = driver.findElements(By.xpath("//select[@id='dropdown']"));
+        Select select = new Select(driver.findElement(By.xpath("//select[@name='Languages']")));
+        int value = 0;
+        select.selectByIndex(value++);
+        select.selectByIndex(value++);
+        select.selectByIndex(value++);
+        select.selectByIndex(value++);
+        select.selectByIndex(value++);
+        select.selectByIndex(value++);
+        List<WebElement> options = select.getOptions();
+        for (WebElement element : options) {
+            //select.selectByIndex(value++);
+            String value1 = element.getAttribute("value");
+            select.selectByValue(value1);
+            String text = element.getText();
+            select.selectByVisibleText(text);
+            System.out.println(text);
+            WaitUtility.waitSeconds(2);
         }
+        select.deselectAll();
+
 
 
     }

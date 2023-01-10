@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c519295d-9a65-476d-9fc3-33d24ac1f182" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day06Tasks/Task1_alert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day06Tasks/Task2_iframe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day06Tasks/Task3_WindowHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utility/RadioSelectUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utility/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day04/EtsyKnife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day04/EtsyKnife.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day04/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day04/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day05Tasks/Task04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day05Tasks/Task04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +56,43 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Task3_WindowHandle.windowHandleTest">
+  <component name="RunManager" selected="TestNG.Test">
+    <configuration name="T4_SimpleDropdowns.simpleDropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_EU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day06Tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06Tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06Tasks.T4_SimpleDropdowns" />
+      <option name="METHOD_NAME" value="simpleDropdownTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task04.allSelectTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_EU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day05Tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day05Tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day05Tasks.Task04" />
+      <option name="METHOD_NAME" value="allSelectTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task1_alert.alertPromptTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium_EU10" />
       <extension name="coverage">
@@ -72,7 +101,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day05Tasks" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06Tasks" />
       <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06Tasks.Task1_alert" />
       <option name="METHOD_NAME" value="alertPromptTest" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -82,16 +111,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2_iframe" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day06Tasks.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day05Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06Tasks" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06Tasks.Task2_iframe" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day05Tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day05Tasks.Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -99,52 +128,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2_iframe.iframeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day06Tasks.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day05Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06Tasks" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06Tasks.Task2_iframe" />
-      <option name="METHOD_NAME" value="iframeTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3_WindowHandle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium_EU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day06Tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06Tasks" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06Tasks.Task3_WindowHandle" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3_WindowHandle.windowHandleTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium_EU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day06Tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day06Tasks" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day06Tasks.Task3_WindowHandle" />
-      <option name="METHOD_NAME" value="windowHandleTest" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day05Tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day05Tasks.Test" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -154,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Task3_WindowHandle.windowHandleTest" />
-        <item itemvalue="TestNG.Task3_WindowHandle" />
-        <item itemvalue="TestNG.Task2_iframe" />
-        <item itemvalue="TestNG.Task2_iframe.iframeTest" />
+        <item itemvalue="TestNG.Test" />
+        <item itemvalue="TestNG.Task04.allSelectTest" />
+        <item itemvalue="TestNG.Test.test" />
         <item itemvalue="TestNG.Task1_alert.alertPromptTest" />
+        <item itemvalue="TestNG.T4_SimpleDropdowns.simpleDropdownTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +181,10 @@
       <workItem from="1672813570590" duration="26783000" />
       <workItem from="1673013000527" duration="7581000" />
       <workItem from="1673070373389" duration="3032000" />
-      <workItem from="1673077545979" duration="6470000" />
+      <workItem from="1673077545979" duration="8186000" />
+      <workItem from="1673214244183" duration="350000" />
+      <workItem from="1673252317991" duration="6000" />
+      <workItem from="1673272699659" duration="8592000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1671518148838</created>
@@ -273,7 +270,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673028520808</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="done">
+      <created>1673084279618</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673084279618</updated>
+    </task>
+    <task id="LOCAL-00014" summary="done">
+      <created>1673084317728</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673084317728</updated>
+    </task>
+    <task id="LOCAL-00015" summary="done">
+      <created>1673084492775</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673084492775</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
