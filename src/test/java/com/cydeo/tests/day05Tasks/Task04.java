@@ -82,20 +82,19 @@ public class Task04 {
 
     @Test
     public void allSelectTest() {
-        //List<WebElement> select1 = driver.findElements(By.xpath("//select[@id='dropdown']"));
         Select select = new Select(driver.findElement(By.xpath("//select[@name='Languages']")));
-        int value = 0;
-        select.selectByIndex(value++);
-        select.selectByIndex(value++);
-        select.selectByIndex(value++);
-        select.selectByIndex(value++);
-        select.selectByIndex(value++);
-        select.selectByIndex(value++);
+//        int value = 0;
+//        select.selectByIndex(value++);
+//        select.selectByIndex(value++);
+//        select.selectByIndex(value++);
+//        select.selectByIndex(value++);
+//        select.selectByIndex(value++);
+//        select.selectByIndex(value++);
         List<WebElement> options = select.getOptions();
         for (WebElement element : options) {
             //select.selectByIndex(value++);
-            String value1 = element.getAttribute("value");
-            select.selectByValue(value1);
+//            String value1 = element.getAttribute("value");
+//            select.selectByValue(value1);
             String text = element.getText();
             select.selectByVisibleText(text);
             System.out.println(text);
