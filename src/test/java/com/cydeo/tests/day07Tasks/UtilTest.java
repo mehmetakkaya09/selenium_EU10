@@ -5,19 +5,19 @@ import org.testng.annotations.Test;
 
 public class UtilTest extends BeforeMethodUtil {
 
-    @Override
+    @Test
     public void test1() {
-       getDriver().get("https://www.amazon.com");
+       driver().get("https://www.amazon.com");
     }
 
     @Test (priority = 2)
     public void test2() {
-        getDriver().get("https://www.etsy.com");
+        driver().get("https://www.etsy.com");
     }
 
     @Test(priority = 3)
     public void test3() {
-        getDriver().get("https://www.facebook.com");
+        driver().get("https://www.facebook.com");
     }
 
 

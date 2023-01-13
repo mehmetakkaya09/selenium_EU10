@@ -1,5 +1,8 @@
-package com.cydeo.utility;
+package com.cydeo.tests.day05Tasks;
 
+import com.cydeo.utility.RadioSelectUtility;
+import com.cydeo.utility.RadioUtility;
+import com.cydeo.utility.WaitUtility;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

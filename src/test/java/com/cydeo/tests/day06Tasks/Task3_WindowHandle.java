@@ -46,6 +46,10 @@ public class Task3_WindowHandle {
         String title = driver.getTitle();
         System.out.println(title);
         System.out.println(Arrays.toString(window));
+
+
+
+
     }
 
 }

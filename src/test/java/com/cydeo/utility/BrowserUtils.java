@@ -14,9 +14,6 @@ public class BrowserUtils {
                 break;
             }
         }
-
-
-
     }
     public static void switchWindow(WebDriver driver, String expectedInURL) {
 
@@ -26,11 +23,7 @@ public class BrowserUtils {
                 break;
             }
         }
-
-
-
     }
-
 
 
 
