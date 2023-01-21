@@ -27,7 +27,7 @@ public class T1_Etsy {
         driver.quit();
 
 
-
+        driver=null;
 
     }
 }

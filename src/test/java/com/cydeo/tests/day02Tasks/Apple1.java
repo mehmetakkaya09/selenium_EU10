@@ -25,6 +25,6 @@ public class Apple1 {
         }else
             System.out.println("Failed");
 
-
+        driver=null;
     }
 }

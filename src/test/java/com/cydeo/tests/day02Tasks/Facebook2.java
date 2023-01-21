@@ -32,6 +32,7 @@ public class Facebook2 {
         } else
             System.out.println("Failed");
         driver.quit();
+        driver=null;
     }
 }
 /*

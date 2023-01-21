@@ -13,8 +13,8 @@ public class Test3 extends BeforeMethodUtil {
 
     @Test
     public void test1() {
-        driver().get("https://practice.cydeo.com/tables");
-            getTableGetEmail(driver(),"2","Jason");
+        driver.get("https://practice.cydeo.com/tables");
+            getTableGetEmail(driver,"2","Jason");
     }
 
 

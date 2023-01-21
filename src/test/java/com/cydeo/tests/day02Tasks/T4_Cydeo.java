@@ -22,7 +22,7 @@ public class T4_Cydeo {
         } else
             System.out.println("Failed");
         driver.quit();
-
+        driver=null;
     }
 }
 /*

@@ -34,7 +34,7 @@ public class CydeoTask1 {
             System.out.println("Failed");
         driver.quit();
 
-
+        driver=null;
 
 
 

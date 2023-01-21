@@ -26,6 +26,7 @@ public class Task3_WindowHandle {
     @AfterMethod
     public void tearDown() {
         driver.quit();
+        driver=null;
     }
 
     @Test
@@ -46,6 +47,7 @@ public class Task3_WindowHandle {
         String title = driver.getTitle();
         System.out.println(title);
         System.out.println(Arrays.toString(window));
+
 
 
 

@@ -31,7 +31,7 @@ public class T3_Navigation {
         }else
             System.out.println("Failed;");
         driver.close();
-
+        driver=null;
     }
 }
 /*

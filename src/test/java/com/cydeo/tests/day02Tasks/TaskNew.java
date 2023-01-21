@@ -36,6 +36,6 @@ public class TaskNew {
         //click on dates
         WebElement dates = driver.findElement(By.xpath("//span[@id='dateSelector']//span[@class='date-view date-view-text-cell'][normalize-space()='Dates']"));
         dates.click();
-
+        driver=null;
     }
 }

@@ -22,7 +22,7 @@ public class T2_ZeroBank {
 
         driver.close();
 
-
+        driver=null;
 
     }
 }

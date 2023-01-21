@@ -11,8 +11,8 @@ public class Task3 extends BeforeMethodUtil {
     public void test1() {
         String username1= PropertyUtility.keyValue("username");
         String password1= PropertyUtility.keyValue("password");
-        Crm_Login.usernamePassword(driver(), username1,password1);
-        Crm_Login.verifyTitle(driver(),"Portal");
+        Crm_Login.usernamePassword(driver, username1,password1);
+        Crm_Login.verifyTitle(driver,"Portal");
     }
 
 

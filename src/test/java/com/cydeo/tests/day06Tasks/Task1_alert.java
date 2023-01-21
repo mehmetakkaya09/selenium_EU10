@@ -56,6 +56,7 @@ public class Task1_alert {
         String actRes = "You entered: hello";
         System.out.println(driver.findElement(By.xpath("//p[@id='result']")).isDisplayed());
         Assert.assertEquals(exRes, actRes);
+
     }
 
 

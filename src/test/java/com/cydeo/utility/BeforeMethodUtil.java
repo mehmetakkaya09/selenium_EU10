@@ -9,20 +9,13 @@ import java.util.concurrent.TimeUnit;
 public class BeforeMethodUtil {
 
 
-    WebDriver drive;
+    public WebDriver driver;
 
-    public WebDriver driver() {
-        return drive;
-    }
-
-    public void setdrive(WebDriver drive) {
-        this.drive = drive;
-    }
 
     @BeforeMethod
     public void setup() {
-        drive = ChromeStart.chromeStart();
-        drive.manage().window().maximize();
+        driver = ChromeStart.chromeStart();
+        driver.manage().window().maximize();
         implicitSeconds(10);
     }
 
@@ -32,7 +25,7 @@ public class BeforeMethodUtil {
     }
 
     public void implicitSeconds(int seconds) {
-        drive.manage().timeouts().implicitlyWait(seconds,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(seconds,TimeUnit.SECONDS);
     }
 
 

@@ -33,7 +33,7 @@ public class GetText_GetAttribute {
 
         driver.quit();
 
-
+        driver=null;
 
 
 

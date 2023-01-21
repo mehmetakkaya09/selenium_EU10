@@ -18,6 +18,6 @@ public class Yahoo1 {
             System.out.println("Failed");
         }
         driver.close();
-
+driver=null;
     }
 }
