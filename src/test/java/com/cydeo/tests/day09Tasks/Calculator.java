@@ -33,10 +33,5 @@ public class Calculator {
         calButton.click();
         String expText = Driver.getDriver().findElement(By.xpath("//b[.='23.44 km/L  or 4.27  L/100 km ']")).getText();
         Assert.assertTrue(expText.contains("23.44"));
-
-
     }
-
-
-
 }

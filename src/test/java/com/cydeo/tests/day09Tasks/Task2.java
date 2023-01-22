@@ -10,8 +10,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Task2 {
-
-
     @Test
     public void test1() {
         SmartBearUtils.login(Driver.getDriver());
@@ -51,8 +49,5 @@ public class Task2 {
         process.click();
         WebElement result = Driver.getDriver().findElement(By.xpath("//strong[normalize-space()='New order has been successfully added.']"));
         Assert.assertEquals(result.getText(),"New order has been successfully added.");
-
-
     }
-
 }

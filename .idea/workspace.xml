@@ -5,36 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c519295d-9a65-476d-9fc3-33d24ac1f182" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/FindElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/JavaFakerPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utility/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utility/SmartBearUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/T2Upload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/T3Hovers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/T4Scroll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/T6Scroll_JavaScript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/T7ScrollArguments.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day01Tasks/Yahoo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day01Tasks/Yahoo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/Apple1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/Apple1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/CydeoTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/CydeoTask1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/Facebook1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/Facebook1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/Facebook2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/Facebook2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/GetText_GetAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/GetText_GetAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/T1_Etsy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/T1_Etsy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/T2_ZeroBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/T2_ZeroBank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/T3_Navigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/T3_Navigation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/T4_Cydeo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/T4_Cydeo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/TaskNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day02Tasks/TaskNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day06Tasks/Task1_alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day06Tasks/Task1_alert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day06Tasks/Task3_WindowHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day06Tasks/Task3_WindowHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day07Tasks/Tables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day07Tasks/Tables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day07Tasks/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day07Tasks/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day07Tasks/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day07Tasks/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day07Tasks/UtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day07Tasks/UtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08Tasks/FlipkartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08Tasks/FlipkartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08Tasks/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08Tasks/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08Tasks/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day08Tasks/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utility/BeforeMethodUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utility/BeforeMethodUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/JavaFakerPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/Task2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,17 +64,17 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.FindElements.test1">
-    <configuration name="Calculator.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="T2Upload.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day09Tasks.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day09Tasks" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day09Tasks.Calculator" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10.T2Upload" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -104,16 +83,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindElements.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T3Hovers.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day09Tasks.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day09Tasks" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day09Tasks.FindElements" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10.T3Hovers" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -122,16 +101,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaFakerPractice.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T4Scroll.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.utility.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day09Tasks" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day09Tasks.JavaFakerPractice" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10.T4Scroll" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -140,16 +119,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T6Scroll_JavaScript.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day09Tasks.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day09Tasks" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day09Tasks.Task2" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10.T6Scroll_JavaScript" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -158,16 +137,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T7ScrollArguments.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.utility.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day09Tasks" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day09Tasks.Test1" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10.T7ScrollArguments" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -178,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FindElements.test1" />
-        <item itemvalue="TestNG.Calculator.test1" />
-        <item itemvalue="TestNG.Task2.test1" />
-        <item itemvalue="TestNG.JavaFakerPractice.test1" />
-        <item itemvalue="TestNG.Test1.test1" />
+        <item itemvalue="TestNG.T7ScrollArguments.test1" />
+        <item itemvalue="TestNG.T6Scroll_JavaScript.test1" />
+        <item itemvalue="TestNG.T4Scroll.test1" />
+        <item itemvalue="TestNG.T3Hovers.test1" />
+        <item itemvalue="TestNG.T2Upload.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +201,8 @@
       <workItem from="1673884703109" duration="1805000" />
       <workItem from="1674027817513" duration="2088000" />
       <workItem from="1674060846839" duration="2382000" />
-      <workItem from="1674218485669" duration="25573000" />
+      <workItem from="1674218485669" duration="28937000" />
+      <workItem from="1674367819238" duration="9523000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1671518148838</created>
@@ -350,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673637872260</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="done">
+      <created>1674313744448</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1674313744448</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

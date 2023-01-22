@@ -11,15 +11,13 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class JavaFakerPractice {
+public class Registration {
 
     @Test
     public void test1() {
 
         Faker faker = new Faker();
-//        System.out.println(faker.internet().password(8,12,true,true,true));
-//        SmartBearUtils.login(Driver.getDriver());
-//        Driver.getDriver().quit();
+
         String registration = PropertyUtility.keyValue("registration");
         Driver.getDriver().get(registration);
         Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
