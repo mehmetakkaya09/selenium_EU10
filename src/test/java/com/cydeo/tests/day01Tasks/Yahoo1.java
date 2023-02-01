@@ -18,6 +18,10 @@ public class Yahoo1 {
             System.out.println("Failed");
         }
         driver.close();
-driver=null;
+//        Faker faker = new Faker();
+//        System.out.println(faker.numerify("####"));
+//        System.out.println(faker.letterify("???-???").toUpperCase());
+//        System.out.println(faker.bothify("###-???"));
+//        System.out.println(faker.internet().password(5,10,true,true,true));
     }
 }

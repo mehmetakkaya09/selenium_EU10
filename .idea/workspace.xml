@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c519295d-9a65-476d-9fc3-33d24ac1f182" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/T2Upload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/T3Hovers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/T4Scroll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/T6Scroll_JavaScript.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/T7ScrollArguments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/AmazonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/Todomvc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/JavaFakerPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day01Tasks/Yahoo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day01Tasks/Yahoo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day05Tasks/Task04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day05Tasks/Task04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day09Tasks/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/T4Scroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/T4Scroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/T7ScrollArguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10/T7ScrollArguments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utility/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utility/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,42 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Task04.allSelectTest">
+    <configuration name="AmazonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_EU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10.AmazonTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmazonTest.testAmazon" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_EU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day10" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10.AmazonTest" />
+      <option name="METHOD_NAME" value="testAmazon" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="T2Upload.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium_EU10" />
       <extension name="coverage">
@@ -83,17 +118,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3Hovers.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task04.allSelectTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day10.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day05Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day10" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10.T3Hovers" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day05Tasks" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day05Tasks.Task04" />
+      <option name="METHOD_NAME" value="allSelectTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -101,7 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4Scroll.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Todomvc.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium_EU10" />
       <extension name="coverage">
         <pattern>
@@ -110,43 +145,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cydeo.tests.day10" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10.T4Scroll" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T6Scroll_JavaScript.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium_EU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day10" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10.T6Scroll_JavaScript" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T7ScrollArguments.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium_EU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day10" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10.T7ScrollArguments" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10.Todomvc" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.T7ScrollArguments.test1" />
-        <item itemvalue="TestNG.T6Scroll_JavaScript.test1" />
-        <item itemvalue="TestNG.T4Scroll.test1" />
-        <item itemvalue="TestNG.T3Hovers.test1" />
+        <item itemvalue="TestNG.Task04.allSelectTest" />
+        <item itemvalue="TestNG.AmazonTest" />
+        <item itemvalue="TestNG.AmazonTest.testAmazon" />
         <item itemvalue="TestNG.T2Upload.test1" />
+        <item itemvalue="TestNG.Todomvc.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +201,18 @@
       <workItem from="1674027817513" duration="2088000" />
       <workItem from="1674060846839" duration="2382000" />
       <workItem from="1674218485669" duration="28937000" />
-      <workItem from="1674367819238" duration="9523000" />
+      <workItem from="1674367819238" duration="9876000" />
+      <workItem from="1674480214085" duration="7352000" />
+      <workItem from="1674546290154" duration="2413000" />
+      <workItem from="1674622352817" duration="17000" />
+      <workItem from="1674644774213" duration="755000" />
+      <workItem from="1674720155840" duration="4911000" />
+      <workItem from="1674843763446" duration="2960000" />
+      <workItem from="1674922690227" duration="9000" />
+      <workItem from="1675104023972" duration="824000" />
+      <workItem from="1675150049879" duration="676000" />
+      <workItem from="1675154915645" duration="8665000" />
+      <workItem from="1675189594967" duration="1757000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1671518148838</created>
@@ -337,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674313744448</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="done">
+      <created>1674383142803</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1674383142803</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

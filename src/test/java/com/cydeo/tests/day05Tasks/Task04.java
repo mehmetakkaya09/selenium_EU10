@@ -83,6 +83,7 @@ public class Task04 {
     @Test
     public void allSelectTest() {
         Select select = new Select(driver.findElement(By.xpath("//select[@name='Languages']")));
+
 //        int value = 0;
 //        select.selectByIndex(value++);
 //        select.selectByIndex(value++);
@@ -100,6 +101,8 @@ public class Task04 {
             System.out.println(text);
             WaitUtility.waitSeconds(2);
         }
+        List<WebElement> allSelectedOptions = select.getAllSelectedOptions();
+        System.out.println(allSelectedOptions);
         select.deselectAll();
 
 

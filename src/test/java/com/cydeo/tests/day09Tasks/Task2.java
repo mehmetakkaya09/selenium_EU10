@@ -36,6 +36,7 @@ public class Task2 {
         zip.sendKeys(faker.address().zipCodeByState(stateName).replaceAll("#", "0"));
         WebElement visa = Driver.getDriver().findElement(By.id("ctl00_MainContent_fmwOrder_cardList_0"));
         visa.click();
+
         WebElement card = Driver.getDriver().findElement(By.id("ctl00_MainContent_fmwOrder_TextBox6"));
         card.sendKeys(faker.finance().creditCard().replaceAll("-",""));
         WebElement expire = Driver.getDriver().findElement(By.id("ctl00_MainContent_fmwOrder_TextBox1"));

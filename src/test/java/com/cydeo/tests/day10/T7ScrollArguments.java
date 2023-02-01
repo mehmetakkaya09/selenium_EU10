@@ -1,6 +1,7 @@
 package com.cydeo.tests.day10;
 
 import com.cydeo.utility.Driver;
+import com.cydeo.utility.WaitUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -16,9 +17,10 @@ public class T7ScrollArguments {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement cydeo = driver.findElement(By.xpath("//a[.='CYDEO']"));
         WebElement home = driver.findElement(By.xpath("//a[.='Home']"));
-        js.executeScript("arguments[0].scrollIntoView(true)",cydeo);
-        js.executeScript("arguments[0].scrollIntoView(true)",home);
-        driver.quit();
+        js.executeScript("arguments[0].scrollIntoView(true)", cydeo);
+        WaitUtility.waitSeconds(2);
+        js.executeScript("arguments[0].scrollIntoView(true)", home);
+        Driver.closeDriver();
     }
 
 }
